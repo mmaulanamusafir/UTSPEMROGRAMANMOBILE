@@ -1,4 +1,4 @@
-package com.example.uaspemrogramanmobile // ganti sesuai nama package proyek Anda
+package com.example.uaspemrogramanmobile 
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -19,14 +19,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 
-/**
- * UAS Pemrograman Mobile - Paket C - Soal 1
- * Analisis alur Navigation Compose.
- */
-
-// ---------------------------------------------------------------
-// Kode dari soal (tidak diubah)
-// ---------------------------------------------------------------
 @Composable
 fun AppNavigation() {
     val navController = rememberNavController()
@@ -51,9 +43,7 @@ fun AppNavigation() {
     }
 }
 
-// ---------------------------------------------------------------
-// Layar pendukung (dibuat sederhana agar program bisa dijalankan)
-// ---------------------------------------------------------------
+
 @Composable
 fun HomeScreen(onDetail: () -> Unit) {
     Column(
@@ -95,9 +85,7 @@ fun DetailScreen(id: String) {
     }
 }
 
-// ---------------------------------------------------------------
-// Preview (untuk melihat tampilan tanpa menjalankan emulator)
-// ---------------------------------------------------------------
+
 @Preview(name = "Soal 1 - Home", showBackground = true, device = Devices.PIXEL_7)
 @Composable
 fun PreviewHomeScreen() {
@@ -110,8 +98,6 @@ fun PreviewDetailScreen() {
     MaterialTheme { DetailScreen(id = "42") }
 }
 
-// Preview seluruh alur navigasi. Aktifkan "Interactive Mode" pada panel preview,
-// lalu tekan tombol "Lihat Detail" untuk berpindah halaman tanpa emulator/HP.
 @Preview(name = "Soal 1 - Alur Navigasi (interaktif)", showBackground = true, device = Devices.PIXEL_7)
 @Composable
 fun PreviewAppNavigation() {
