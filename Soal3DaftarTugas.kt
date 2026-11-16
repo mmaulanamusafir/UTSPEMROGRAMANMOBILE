@@ -1,4 +1,4 @@
-package com.example.uaspemrogramanmobile // ganti sesuai nama package proyek Anda
+package com.example.uaspemrogramanmobile 
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -21,10 +21,6 @@ import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
-/**
- * UAS Pemrograman Mobile - Paket C - Soal 3
- * Daftar tugas kuliah dengan LazyColumn dan Card.
- */
 
 data class Tugas(val judul: String, val tanggal: String)
 
