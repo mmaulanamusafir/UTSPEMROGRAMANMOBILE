@@ -1,4 +1,4 @@
-package com.example.uaspemrogramanmobile // ganti sesuai nama package proyek Anda
+package com.example.uaspemrogramanmobile
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
@@ -14,14 +14,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-
-/**
- * UAS Pemrograman Mobile - Paket C - Soal 2
- * Perbaikan penerapan state hoisting.
- *
- * State "teks" dikelola oleh ParentScreen (di-hoist).
- * InputNama menjadi stateless: hanya menerima value dan callback.
- */
 
 @Composable
 fun ParentScreen() {
@@ -47,8 +39,6 @@ fun InputNama(
     )
 }
 
-// Aktifkan "Interactive Mode" pada panel preview, lalu ketik di kolom Nama
-// untuk melihat state bekerja tanpa emulator/HP.
 @Preview(name = "Soal 2 - State Hoisting (interaktif)", showBackground = true, device = Devices.PIXEL_7)
 @Composable
 fun PreviewParentScreen() {
