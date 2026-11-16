@@ -1,4 +1,4 @@
-package com.example.uaspemrogramanmobile // ganti sesuai nama package proyek Anda
+package com.example.uaspemrogramanmobile
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -22,12 +22,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-
-/**
- * UAS Pemrograman Mobile - Paket C - Soal 4
- * Menu utama aplikasi akademik: LazyVerticalGrid 2 kolom,
- * setiap kartu dapat ditekan (callback sederhana).
- */
 
 @Composable
 fun MenuUtamaScreen(
